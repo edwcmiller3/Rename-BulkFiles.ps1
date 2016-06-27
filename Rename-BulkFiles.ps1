@@ -15,10 +15,10 @@
     File to read new names from (e.g. '.\List.txt').
 
 .EXAMPLE
-    Rename-BulkFiles -FilePath 'I:\TV\Clannad\Clannad' -NameList '.\Clannad S1.txt'
+    Rename-BulkFiles -FilePath 'Z:\Dir\AnotherDir\AnotherDirAgain' -NameList '.\Example.txt'
     
-    Call the Rename-BulkFiles cmdlet and take all the files from the Clannad folder and rename them
-    according to the list of names in Clannad S1.txt.
+    Call the Rename-BulkFiles cmdlet and take all the files from the AnotherDirAgain folder and rename them
+    according to the list of names in Example.txt.
 #>
 
 Function Rename-BulkFiles {
